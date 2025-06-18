@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load('productivity_predictor_fixed.pkl')
+model = joblib.load('productivity_predictor.pkl')
 
 st.title("Remote Worker Productivity Predictor")
 
